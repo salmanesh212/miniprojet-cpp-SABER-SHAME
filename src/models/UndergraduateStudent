@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+using namespace std;
+#include "Student"
+
+
+class UndergraduateStudent : public Student {
+private:
+    string major;   
+public:
+    UndergraduateStudent(const string& name, int id, float gpa, const string& major);
+    void display() const override{
+        cout << " ID: " << id <<"|"<< " Name: " << name<<"|"<< "GPA: " << gpa <<"|"<< "Filliére: " << major <<"|" <<"Boursier: " << computeScholarship() << endl;
+    };
+    double computeScholarship() const override {
+        if (gpa >= 3.5) return 500.0;
+        else return 0.0;
+    };
+    string getType() const override { 
+        return "Liscence"; 
+    };
+
+};
