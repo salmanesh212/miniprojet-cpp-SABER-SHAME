@@ -1,0 +1,55 @@
+#include <vector>
+#include <map>
+#include <memory>
+#include <algorithm>
+#include "Student"
+
+class StudentManager {
+private:
+    map<int, shared_ptr<Student>> students; // Stockage : ID -> Etudiant
+
+public:
+    void add(shared_ptr<Student> s);        // DuplicateIDException si ID existe
+    void remove(int id);                    // StudentNotFoundException si absent
+    void update(int id, shared_ptr<Student> updated);
+
+    shared_ptr<Student> findById(int id) const;
+    vector<shared_ptr<Student>> findByName(const string& n) const {
+        vector<shared_ptr<Student>> result;
+        auto it = students.begin();    
+        while ((it = std::find_if(it, students.end(), [&n](const auto& pair) {
+            return pair.second->getName() == n;
+        })) != students.end()) {
+            result.push_back(it->second);
+            ++it; // Move to the next element to continue searching
+        }
+        return result;
+    }
+
+    vector<shared_ptr<Student>> sortByGpa()const{
+        std::sort(students.begin(), students.end(), [](const auto& a, const auto& b) {
+            return a.second->getGpa() > b.second->getGpa(); // ordre decroissant
+        });
+        
+    };
+    string Aa,Bb; 
+    vector<shared_ptr<Student>> sortByName(){
+        std::sort(students.begin(), students.end(), [](const auto& a, const auto& b) {
+            Aa = a.second->getName();
+            Bb = b.second->getName();
+            return tolower(Aa) < tolower(Bb); // ordre alphabetique, insensible a la casse
+        });
+    }  // ordre alphabetique
+
+    double averageGpa() const{
+        if (students.size() == 0) return 0.0; // Eviter division par zero
+        double sum = 0.0;
+        for (const auto& pair : students) {
+            sum += pair.second->getGpa();
+        }
+        return sum / students.size();
+    };
+    int count() const { return students.size(); }
+
+    const map<int, shared_ptr<Student>>& getAll() const { return students; }
+};
