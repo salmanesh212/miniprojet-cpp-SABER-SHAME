@@ -6,10 +6,10 @@
 
 ## 👥 Équipe
 
-| Membre |
-|--------|
-| **SABER Salma** |
-| **SHAME Mohamed Salmane** |
+|           Membre                    |
+|-------------------------------------|
+|           **SABER Salma**           |
+|           **SHAME Mohamed Salmane** |
 
 ---
 
