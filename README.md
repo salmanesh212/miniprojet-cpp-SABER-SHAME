@@ -16,8 +16,8 @@
 ## 🔗 Liens importants
 
 - 📁 **Dépôt GitHub** : [https://github.com/salmanesh212/miniprojet-cpp-SABER-SHAME](https://github.com/salmanesh212/miniprojet-cpp-SABER-SHAME)
-- 🎬 **Vidéo de démonstration** : [https://youtube.com/...](https://youtube.com/...)
-- 📄 **Rapport PDF** : disponible dans `/docs/rapport.pdf`
+- 🎬 **Vidéo de démonstration** : 
+- 📄 **Rapport PDF** : disponible dans :
 
 ---
 
