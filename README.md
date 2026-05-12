@@ -6,7 +6,7 @@
 
 ## 👥 Équipe
 
-| Membre | Rôle principal |
+| Membre |
 |---|---|
 | **SABER Salma**  |
 | **SHAME Mohamed Salmane**  |
