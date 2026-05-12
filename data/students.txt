@@ -1,0 +1,3 @@
+Licence|1001|Amira Benali|3.8|Informatique
+Master|1002|Cherif Omar|3.5|Intelligence Artificielle
+Doctorat|1003|Meziane Riad|3.9|Dr. Hadj|2
