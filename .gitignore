@@ -1,4 +1,3 @@
-mini-projet-IMS (1).pdf
 build/
 *.o
 *.exe
@@ -6,3 +5,5 @@ build/
 Makefile
 moc_*.cpp
 ui_*.h
+*.qtcreator
+.qtcreator
