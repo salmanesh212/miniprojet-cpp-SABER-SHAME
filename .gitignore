@@ -1,0 +1,8 @@
+mini-projet-IMS (1).pdf
+build/
+*.o
+*.exe
+*.obj
+Makefile
+moc_*.cpp
+ui_*.h
