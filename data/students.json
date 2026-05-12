@@ -1,0 +1,26 @@
+{
+  "students": [
+    {
+      "id": 1001,
+      "name": "Amira Benali",
+      "gpa": 3.8,
+      "type": "Licence",
+      "major": "Informatique"
+    },
+    {
+      "id": 1002,
+      "name": "Cherif Omar",
+      "gpa": 3.5,
+      "type": "Master",
+      "researchTopic": "Intelligence Artificielle"
+    },
+    {
+      "id": 1003,
+      "name": "Meziane Riad",
+      "gpa": 3.9,
+      "type": "Doctorat",
+      "supervisor": "Dr. Hadj",
+      "yearOfStudy": 2
+    }
+  ]
+}
