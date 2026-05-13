@@ -7,3 +7,7 @@ moc_*.cpp
 ui_*.h
 *.qtcreator
 .qtcreator
+.qtcreator/
+*.pro.user
+.qtc_clangd/
+CMakeLists.txt.user*
