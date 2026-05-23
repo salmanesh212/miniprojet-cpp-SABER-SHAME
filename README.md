@@ -18,8 +18,8 @@
 | Ressource | Lien |
 |---|---|
 | 📁 Dépôt GitHub | [miniprojet-cpp-SABER-SHAME](https://github.com/salmanesh212/miniprojet-cpp-SABER-SHAME) |
-| 🎬 Vidéo de démonstration | *(à compléter)* |
-| 📄 Rapport PDF | `docs/rapport.pdf` |
+| 🎬 Vidéo de démonstration | *https://drive.google.com/file/d/1vlimVSEXLSO41dFMK8QTbg0X1nGgseFu/view?usp=drivesdk* |
+| 📄 Rapport PDF | https://drive.google.com/file/d/1Sz2W-waY2QHHWViLYpzo58jrt_c0wbS2/view?usp=drivesdk |
 
 ---
 
