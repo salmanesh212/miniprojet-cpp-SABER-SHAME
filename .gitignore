@@ -11,3 +11,4 @@ ui_*.h
 *.pro.user
 .qtc_clangd/
 CMakeLists.txt.user*
+.vscode/
